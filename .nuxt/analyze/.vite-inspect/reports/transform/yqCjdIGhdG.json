@@ -1,0 +1,243 @@
+{
+  "resolvedId": "/home/msrody/Workspace/therodysite/node_modules/@nuxt-themes/elements/components/volta/VoltaBoard.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = [\"src\"]\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'VoltaBoard',\n  props: {\n  token: {\n    type: String,\n    required: true\n  }\n},\n  setup(__props) {\n\nconst props = __props\nconst src = computed(() => `https://volta.net/embed/${props.token}`)\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createElementBlock(\"iframe\", {\n    src: _unref(src),\n    class: \"w-full\"\n  }, null, 8, _hoisted_1))\n}\n}\n\n})",
+      "start": 1721696480378,
+      "end": 1721696480378
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1721696480384,
+      "end": 1721696480384,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1721696480388,
+      "end": 1721696480389,
+      "order": "pre"
+    },
+    {
+      "name": "pinceau-transforms",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = [\"src\"]\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'VoltaBoard',\n  props: {\n  token: {\n    type: String,\n    required: true\n  }\n},\n  setup(__props) {\n\nconst props = __props\nconst src = computed(() => `https://volta.net/embed/${props.token}`)\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createElementBlock(\"iframe\", {\n    src: _unref(src),\n    class: \"w-full\"\n  }, null, 8, _hoisted_1))\n}\n}\n\n})",
+      "start": 1721696480389,
+      "end": 1721696480389,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1721696480389,
+      "end": 1721696480389,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1721696480390,
+      "end": 1721696480390,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\";\nconst _hoisted_1 = [\"src\"];\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"VoltaBoard\",\n  props: {\n    token: {\n      type: String,\n      required: true\n    }\n  },\n  setup(__props) {\n    const props = __props;\n    const src = computed(() => `https://volta.net/embed/${props.token}`);\n    return (_ctx, _cache) => {\n      return _openBlock(), _createElementBlock(\"iframe\", {\n        src: _unref(src),\n        class: \"w-full\"\n      }, null, 8, _hoisted_1);\n    };\n  }\n});\n",
+      "start": 1721696480394,
+      "end": 1721696480710,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/home/msrody/Workspace/therodysite/node_modules/@nuxt-themes/elements/components/volta/VoltaBoard.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = [\"src\"]\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'VoltaBoard',\n  props: {\n  token: {\n    type: String,\n    required: true\n  }\n},\n  setup(__props) {\n\nconst props = __props\nconst src = computed(() => `https://volta.net/embed/${props.token}`)\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createElementBlock(\"iframe\", {\n    src: _unref(src),\n    class: \"w-full\"\n  }, null, 8, _hoisted_1))\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,SAAS,QAAQ,aAAa,YAAY,sBAAsB,2BAA2B;AAEpG,MAAM,aAAa,CAAC,KAAK;AAGzB,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,OAAO;AAAA,IACP,OAAO;AAAA,MACL,MAAM;AAAA,MACN,UAAU;AAAA,IACZ;AAAA,EACF;AAAA,EACE,MAAM,SAAS;AAEjB,UAAM,QAAQ;AACd,UAAM,MAAM,SAAS,MAAM,2BAA2B,MAAM,KAAK,EAAE;AAEnE,WAAO,CAAC,MAAU,WAAgB;AAChC,aAAQ,WAAW,GAAG,oBAAoB,UAAU;AAAA,QAClD,KAAK,OAAO,GAAG;AAAA,QACf,OAAO;AAAA,MACT,GAAG,MAAM,GAAG,UAAU;AAAA,IACxB;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1721696480710,
+      "end": 1721696480710,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1721696480710,
+      "end": 1721696480710,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1721696480710,
+      "end": 1721696480710,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1721696480710,
+      "end": 1721696480710,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1721696480710,
+      "end": 1721696480710,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1721696480710,
+      "end": 1721696480711,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:prehydrate-transform",
+      "start": 1721696480711,
+      "end": 1721696480711,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1721696480711,
+      "end": 1721696480711,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1721696480711,
+      "end": 1721696480712,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1721696480712,
+      "end": 1721696480712,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1721696480712,
+      "end": 1721696480712,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1721696480712,
+      "end": 1721696480712,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1721696480712,
+      "end": 1721696480712,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1721696480712,
+      "end": 1721696480712,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1721696480712,
+      "end": 1721696480712,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1721696480712,
+      "end": 1721696480712,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1721696480712,
+      "end": 1721696480713,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1721696480713,
+      "end": 1721696480713,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1721696480713,
+      "end": 1721696480713,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1721696480713,
+      "end": 1721696480713,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "result": "import { computed } from 'vue';\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\";\nconst _hoisted_1 = [\"src\"];\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"VoltaBoard\",\n  props: {\n    token: {\n      type: String,\n      required: true\n    }\n  },\n  setup(__props) {\n    const props = __props;\n    const src = computed(() => `https://volta.net/embed/${props.token}`);\n    return (_ctx, _cache) => {\n      return _openBlock(), _createElementBlock(\"iframe\", {\n        src: _unref(src),\n        class: \"w-full\"\n      }, null, 8, _hoisted_1);\n    };\n  }\n});\n",
+      "start": 1721696480713,
+      "end": 1721696480733,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": ";AAAA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1D,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1G,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC3B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACjD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACvB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACV,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACZ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACpB,CAAC,CAAC,CAAC,CAAC,CAAC;AACL,CAAC,CAAC,CAAC,CAAC;AACJ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAClB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1D,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACvB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACN,CAAC,CAAC,CAAC;AACH,CAAC,CAAC,CAAC;"
+      }
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1721696480733,
+      "end": 1721696480734,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1721696480734,
+      "end": 1721696480734,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1721696480734,
+      "end": 1721696480734,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1721696480734,
+      "end": 1721696480735,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1721696480735,
+      "end": 1721696480736,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1721696480736,
+      "end": 1721696480737,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1721696480737,
+      "end": 1721696480737,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1721696480737,
+      "end": 1721696480737,
+      "order": "normal"
+    }
+  ]
+}

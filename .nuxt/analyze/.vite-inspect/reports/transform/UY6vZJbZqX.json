@@ -1,0 +1,225 @@
+{
+  "resolvedId": "/home/msrody/Workspace/therodysite/.nuxt/app.config.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\nimport { updateAppConfig } from '#app/config'\nimport { defuFn } from 'defu'\n\nconst inlineConfig = {\n  \"nuxt\": {}\n}\n\n// Vite - webpack is handled directly in #app/config\nif (import.meta.hot) {\n  import.meta.hot.accept((newModule) => {\n    updateAppConfig(newModule.default)\n  })\n}\n\nimport cfg0 from \"/home/msrody/Workspace/therodysite/app.config.ts\"\nimport cfg1 from \"/home/msrody/Workspace/therodysite/node_modules/@nuxt-themes/alpine/app.config.ts\"\nimport cfg2 from \"/home/msrody/Workspace/therodysite/node_modules/@nuxt-themes/typography/app.config.ts\"\nimport cfg3 from \"/home/msrody/Workspace/therodysite/node_modules/@nuxt-themes/elements/app.config.ts\"\n\nexport default /*@__PURE__*/ defuFn(cfg0, cfg1, cfg2, cfg3, inlineConfig)\n",
+      "start": 1721696481481,
+      "end": 1721696481949,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1721696481949,
+      "end": 1721696481949,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1721696481949,
+      "end": 1721696481949,
+      "order": "pre"
+    },
+    {
+      "name": "pinceau-transforms",
+      "result": "\nimport { updateAppConfig } from '#app/config'\nimport { defuFn } from 'defu'\n\nconst inlineConfig = {\n  \"nuxt\": {}\n}\n\n// Vite - webpack is handled directly in #app/config\nif (import.meta.hot) {\n  import.meta.hot.accept((newModule) => {\n    updateAppConfig(newModule.default)\n  })\n}\n\nimport cfg0 from \"/home/msrody/Workspace/therodysite/app.config.ts\"\nimport cfg1 from \"/home/msrody/Workspace/therodysite/node_modules/@nuxt-themes/alpine/app.config.ts\"\nimport cfg2 from \"/home/msrody/Workspace/therodysite/node_modules/@nuxt-themes/typography/app.config.ts\"\nimport cfg3 from \"/home/msrody/Workspace/therodysite/node_modules/@nuxt-themes/elements/app.config.ts\"\n\nexport default /*@__PURE__*/ defuFn(cfg0, cfg1, cfg2, cfg3, inlineConfig)\n",
+      "start": 1721696481949,
+      "end": 1721696481949,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1721696481949,
+      "end": 1721696481949,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1721696481949,
+      "end": 1721696481949,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1721696481949,
+      "end": 1721696481949,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1721696481949,
+      "end": 1721696481949,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1721696481949,
+      "end": 1721696481949,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1721696481949,
+      "end": 1721696481949,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1721696481949,
+      "end": 1721696481949,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1721696481949,
+      "end": 1721696481949,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1721696481949,
+      "end": 1721696481949,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:prehydrate-transform",
+      "start": 1721696481950,
+      "end": 1721696481950,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1721696481950,
+      "end": 1721696481950,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1721696481950,
+      "end": 1721696481950,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1721696481950,
+      "end": 1721696481950,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1721696481950,
+      "end": 1721696481950,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "result": "import { updateAppConfig } from \"#app/config\";\nimport { defuFn } from \"defu\";\nconst inlineConfig = {\n  \"nuxt\": {}\n};\nif (void 0) {\n  (void 0).accept((newModule) => {\n    updateAppConfig(newModule.default);\n  });\n}\nimport cfg0 from \"/home/msrody/Workspace/therodysite/app.config.ts\";\nimport cfg1 from \"/home/msrody/Workspace/therodysite/node_modules/@nuxt-themes/alpine/app.config.ts\";\nimport cfg2 from \"/home/msrody/Workspace/therodysite/node_modules/@nuxt-themes/typography/app.config.ts\";\nimport cfg3 from \"/home/msrody/Workspace/therodysite/node_modules/@nuxt-themes/elements/app.config.ts\";\nexport default /* @__PURE__ */ defuFn(cfg0, cfg1, cfg2, cfg3, inlineConfig);\n",
+      "start": 1721696481950,
+      "end": 1721696482234,
+      "order": "normal",
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1721696482234,
+      "end": 1721696482234,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1721696482234,
+      "end": 1721696482234,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1721696482234,
+      "end": 1721696482234,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1721696482234,
+      "end": 1721696482234,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1721696482234,
+      "end": 1721696482241,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1721696482241,
+      "end": 1721696482241,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1721696482241,
+      "end": 1721696482241,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1721696482243,
+      "end": 1721696482243,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1721696482243,
+      "end": 1721696482246,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1721696482246,
+      "end": 1721696482246,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1721696482246,
+      "end": 1721696482246,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1721696482246,
+      "end": 1721696482246,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1721696482246,
+      "end": 1721696482246,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1721696482247,
+      "end": 1721696482247,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1721696482247,
+      "end": 1721696482247,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1721696482248,
+      "end": 1721696482248,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1721696482248,
+      "end": 1721696482248,
+      "order": "normal"
+    }
+  ]
+}

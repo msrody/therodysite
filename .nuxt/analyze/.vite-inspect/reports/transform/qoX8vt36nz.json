@@ -1,0 +1,223 @@
+{
+  "resolvedId": "virtual:nuxt:/home/msrody/Workspace/therodysite/.nuxt/nuxt.config.mjs",
+  "transforms": [
+    {
+      "name": "virtual",
+      "result": "export const appHead = {\"meta\":[{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"},{\"charset\":\"utf-8\"}],\"link\":[],\"style\":[],\"script\":[],\"noscript\":[],\"htmlAttrs\":{\"lang\":\"en\"}}\n\nexport const appBaseURL = \"/\"\n\nexport const appBuildAssetsDir = \"/_nuxt/\"\n\nexport const appCdnURL = \"\"\n\nexport const appLayoutTransition = false\n\nexport const appPageTransition = false\n\nexport const appViewTransition = false\n\nexport const appKeepalive = false\n\nexport const appRootId = \"__nuxt\"\n\nexport const appRootTag = \"div\"\n\nexport const appRootAttrs = {\"id\":\"__nuxt\"}\n\nexport const appTeleportTag = \"div\"\n\nexport const appTeleportId = \"teleports\"\n\nexport const appTeleportAttrs = {\"id\":\"teleports\"}\n\nexport const renderJsonPayloads = true\n\nexport const componentIslands = false\n\nexport const payloadExtraction = true\n\nexport const cookieStore = true\n\nexport const appManifest = true\n\nexport const remoteComponentIslands = false\n\nexport const selectiveClient = false\n\nexport const devPagesDir = null\n\nexport const devRootDir = null\n\nexport const devLogs = false\n\nexport const nuxtLinkDefaults = {\"componentName\":\"NuxtLink\"}\n\nexport const asyncDataDefaults = {\"value\":null,\"errorValue\":null,\"deep\":true}\n\nexport const resetAsyncDataToUndefined = true\n\nexport const nuxtDefaultErrorValue = null\n\nexport const fetchDefaults = {}\n\nexport const vueAppRootContainer = '#__nuxt'\n\nexport const viewTransition = false\n\nexport const appId = \"nuxt-app\"\n\nexport const outdatedBuildInterval = 3600000",
+      "start": 1721696475760,
+      "end": 1721696475760,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1721696475760,
+      "end": 1721696475760,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1721696475761,
+      "end": 1721696475761,
+      "order": "pre"
+    },
+    {
+      "name": "pinceau-transforms",
+      "result": "export const appHead = {\"meta\":[{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"},{\"charset\":\"utf-8\"}],\"link\":[],\"style\":[],\"script\":[],\"noscript\":[],\"htmlAttrs\":{\"lang\":\"en\"}}\n\nexport const appBaseURL = \"/\"\n\nexport const appBuildAssetsDir = \"/_nuxt/\"\n\nexport const appCdnURL = \"\"\n\nexport const appLayoutTransition = false\n\nexport const appPageTransition = false\n\nexport const appViewTransition = false\n\nexport const appKeepalive = false\n\nexport const appRootId = \"__nuxt\"\n\nexport const appRootTag = \"div\"\n\nexport const appRootAttrs = {\"id\":\"__nuxt\"}\n\nexport const appTeleportTag = \"div\"\n\nexport const appTeleportId = \"teleports\"\n\nexport const appTeleportAttrs = {\"id\":\"teleports\"}\n\nexport const renderJsonPayloads = true\n\nexport const componentIslands = false\n\nexport const payloadExtraction = true\n\nexport const cookieStore = true\n\nexport const appManifest = true\n\nexport const remoteComponentIslands = false\n\nexport const selectiveClient = false\n\nexport const devPagesDir = null\n\nexport const devRootDir = null\n\nexport const devLogs = false\n\nexport const nuxtLinkDefaults = {\"componentName\":\"NuxtLink\"}\n\nexport const asyncDataDefaults = {\"value\":null,\"errorValue\":null,\"deep\":true}\n\nexport const resetAsyncDataToUndefined = true\n\nexport const nuxtDefaultErrorValue = null\n\nexport const fetchDefaults = {}\n\nexport const vueAppRootContainer = '#__nuxt'\n\nexport const viewTransition = false\n\nexport const appId = \"nuxt-app\"\n\nexport const outdatedBuildInterval = 3600000",
+      "start": 1721696475762,
+      "end": 1721696475762,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1721696475762,
+      "end": 1721696475762,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1721696475762,
+      "end": 1721696475762,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1721696475762,
+      "end": 1721696475762,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1721696475762,
+      "end": 1721696475762,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1721696475762,
+      "end": 1721696475762,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1721696475763,
+      "end": 1721696475763,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1721696475763,
+      "end": 1721696475763,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1721696475763,
+      "end": 1721696475763,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1721696475763,
+      "end": 1721696475763,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:prehydrate-transform",
+      "start": 1721696475764,
+      "end": 1721696475764,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1721696475764,
+      "end": 1721696475764,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1721696475764,
+      "end": 1721696475764,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1721696475764,
+      "end": 1721696475764,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1721696475764,
+      "end": 1721696475764,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1721696475765,
+      "end": 1721696475765,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1721696475765,
+      "end": 1721696475765,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1721696475765,
+      "end": 1721696475765,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1721696475765,
+      "end": 1721696475765,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1721696475765,
+      "end": 1721696475765,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1721696475765,
+      "end": 1721696475765,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1721696475765,
+      "end": 1721696475765,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1721696475765,
+      "end": 1721696475765,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1721696475766,
+      "end": 1721696475766,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1721696475767,
+      "end": 1721696475784,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1721696475784,
+      "end": 1721696475785,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1721696475785,
+      "end": 1721696475785,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1721696475785,
+      "end": 1721696475785,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1721696475785,
+      "end": 1721696475785,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1721696475786,
+      "end": 1721696475786,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1721696475786,
+      "end": 1721696475786,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1721696475786,
+      "end": 1721696475789,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1721696475789,
+      "end": 1721696475789,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "resolvedId": "/home/msrody/Workspace/therodysite/node_modules/@nuxt-themes/alpine/components/MainNav.vue?nuxt_component=async&nuxt_component_name=MainNav&nuxt_component_export=default",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<script lang=\"ts\" setup>\nconst { navigation } = useContent()\n\nconst emits = defineEmits(['linkClick'])\n\nfunction handleClick() {\n  emits('linkClick')\n}\n</script>\n\n<template>\n  <nav>\n    <ul>\n      <li\n        v-for=\"link of navigation\"\n        :key=\"link._path\"\n      >\n        <NuxtLink\n          :to=\"link._path\"\n          @click=\"handleClick\"\n        >\n          <span class=\"underline-fx\" />\n          {{ link.title }}\n        </NuxtLink>\n      </li>\n    </ul>\n  </nav>\n</template>\n\n<style scoped lang=\"ts\">\ncss({\n  nav: {\n    ul: {\n      display: 'flex',\n      flexDirection: 'column',\n      width: '100%',\n      justifyContent: 'center',\n      gap: '{space.4}',\n      '@sm': {\n        flexDirection: 'row',\n        gap: '{space.8}',\n      },\n      a: {\n        position: 'relative',\n        '&.router-link-active': {\n          color: '{color.primary.500}'\n        },\n        '.underline-fx': {\n          position: 'absolute',\n          bottom: '-4px',\n          width: 0,\n          height: '1px',\n          backgroundColor: 'currentColor',\n          transition: 'width 200ms ease-in-out',\n          'a:hover &&': {\n            width: '100%'\n          }\n        }\n      },\n\n    }\n  }\n})\n</style>\n",
+      "start": 1721696476168,
+      "end": 1721696476626,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1721696476626,
+      "end": 1721696476626,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1721696476626,
+      "end": 1721696476626,
+      "order": "pre"
+    },
+    {
+      "name": "pinceau-transforms",
+      "start": 1721696476626,
+      "end": 1721696476626,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1721696476626,
+      "end": 1721696476626,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1721696476626,
+      "end": 1721696476626,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1721696476626,
+      "end": 1721696476626,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1721696476626,
+      "end": 1721696476626,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1721696476626,
+      "end": 1721696476626,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import _sfc_main from \"/home/msrody/Workspace/therodysite/node_modules/@nuxt-themes/alpine/components/MainNav.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/home/msrody/Workspace/therodysite/node_modules/@nuxt-themes/alpine/components/MainNav.vue?vue&type=script&setup=true&lang.ts\";\nimport \"/home/msrody/Workspace/therodysite/node_modules/@nuxt-themes/alpine/components/MainNav.vue?vue&type=style&index=0&scoped=9bbd4b28&lang.ts\";\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"__scopeId\", \"data-v-9bbd4b28\"]]);\n",
+      "start": 1721696476626,
+      "end": 1721696476650,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1721696476651,
+      "end": 1721696476651,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1721696476651,
+      "end": 1721696476651,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1721696476652,
+      "end": 1721696476652,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:prehydrate-transform",
+      "start": 1721696476653,
+      "end": 1721696476653,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1721696476653,
+      "end": 1721696476653,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "result": "import { defineAsyncComponent } from \"vue\"\nexport default defineAsyncComponent(() => import(\"/home/msrody/Workspace/therodysite/node_modules/@nuxt-themes/alpine/components/MainNav.vue\").then(r => r[\"default\"] || r.default || r))",
+      "start": 1721696476655,
+      "end": 1721696476655,
+      "order": "normal",
+      "sourcemaps": null
+    },
+    {
+      "name": "replace",
+      "start": 1721696476656,
+      "end": 1721696476656,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1721696476656,
+      "end": 1721696476656,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1721696476657,
+      "end": 1721696476657,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1721696476657,
+      "end": 1721696476657,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1721696476657,
+      "end": 1721696476657,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1721696476658,
+      "end": 1721696476658,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1721696476658,
+      "end": 1721696476658,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1721696476658,
+      "end": 1721696476658,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1721696476659,
+      "end": 1721696476659,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1721696476659,
+      "end": 1721696476659,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1721696476660,
+      "end": 1721696476661,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1721696476661,
+      "end": 1721696476668,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1721696476669,
+      "end": 1721696476669,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1721696476671,
+      "end": 1721696476671,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1721696476674,
+      "end": 1721696476674,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1721696476675,
+      "end": 1721696476675,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1721696476676,
+      "end": 1721696476676,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1721696476677,
+      "end": 1721696476677,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "result": "import { __vitePreload } from \"\u0000vite/preload-helper.js\";import { defineAsyncComponent } from \"vue\"\nexport default defineAsyncComponent(() => __vitePreload(() => import(\"/home/msrody/Workspace/therodysite/node_modules/@nuxt-themes/alpine/components/MainNav.vue\"),__VITE_IS_MODERN__?__VITE_PRELOAD__:void 0,import.meta.url).then(r => r[\"default\"] || r.default || r))",
+      "start": 1721696476678,
+      "end": 1721696476679,
+      "order": "normal",
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1721696476679,
+      "end": 1721696476679,
+      "order": "normal"
+    }
+  ]
+}

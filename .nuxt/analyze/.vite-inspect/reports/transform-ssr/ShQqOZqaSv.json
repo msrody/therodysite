@@ -1,0 +1,288 @@
+{
+  "resolvedId": "/home/msrody/Workspace/therodysite/node_modules/@nuxt-themes/alpine/components/SocialIcons.vue?nuxt_component=async&nuxt_component_name=SocialIcons&nuxt_component_export=default",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<script setup lang=\"ts\">\nconst props = defineProps({\n  socials: {\n    type: Object,\n    default: () => {}\n  }\n})\n\nconst builtInSocials = ['twitter', 'facebook', 'instagram', 'youtube', 'github', 'medium']\n\nconst icons = computed<any>(() => {\n  return Object.entries(props.socials)\n    .map(([key, value]) => {\n      if (typeof value === 'object') {\n        return value\n      } else if (typeof value === 'string' && value && builtInSocials.includes(key)) {\n        return {\n          href: `https://${key}.com/${value}`,\n          icon: `uil:${key}`,\n          label: value\n        }\n      } else {\n        return null\n      }\n    })\n    .filter(Boolean)\n})\n\nconst getRel = (icon:any) => {\n  const base = ['noopener', 'noreferrer']\n  if (icon.rel) {\n    base.push(icon.rel)\n  }\n  return base.join(' ')\n}\n</script>\n\n<template>\n  <!-- eslint-disable-next-line vue/no-multiple-template-root -->\n  <NuxtLink\n    v-for=\"icon in icons\"\n    :key=\"icon.label\"\n    :rel=\"getRel(icon)\"\n    :title=\"icon.label\"\n    :aria-label=\"icon.label\"\n    :href=\"icon.href\"\n    target=\"_blank\"\n  >\n    <Icon v-if=\"icon.icon\" :name=\"icon.icon\" />\n  </NuxtLink>\n</template>\n\n<style scoped lang=\"ts\">\ncss({\n  a: {\n    '--social-icon-size': '24px',\n    width: 'var(--social-icon-size)',\n    height: 'var(--social-icon-size)',\n    display: 'flex',\n    ':hover': {\n      // TODO: why prose links is not yellow, should be primary\n      color: '{color.primary.500}',\n    },\n    svg: {\n      width: '100%',\n      height: '100%',\n    }\n  }\n})\n</style>\n",
+      "start": 1721696490678,
+      "end": 1721696491024,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1721696491024,
+      "end": 1721696491024,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1721696491024,
+      "end": 1721696491024,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1721696491024,
+      "end": 1721696491024,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1721696491024,
+      "end": 1721696491024,
+      "order": "pre"
+    },
+    {
+      "name": "pinceau-transforms",
+      "start": 1721696491024,
+      "end": 1721696491024,
+      "order": "pre"
+    },
+    {
+      "name": "pinceau-transforms",
+      "start": 1721696491024,
+      "end": 1721696491024,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1721696491024,
+      "end": 1721696491024,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1721696491024,
+      "end": 1721696491024,
+      "order": "pre"
+    },
+    {
+      "name": "server-only-component-transform",
+      "start": 1721696491024,
+      "end": 1721696491024,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1721696491024,
+      "end": 1721696491024,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1721696491024,
+      "end": 1721696491024,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1721696491024,
+      "end": 1721696491024,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1721696491024,
+      "end": 1721696491024,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import _sfc_main from \"/home/msrody/Workspace/therodysite/node_modules/@nuxt-themes/alpine/components/SocialIcons.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/home/msrody/Workspace/therodysite/node_modules/@nuxt-themes/alpine/components/SocialIcons.vue?vue&type=script&setup=true&lang.ts\";\nimport \"/home/msrody/Workspace/therodysite/node_modules/@nuxt-themes/alpine/components/SocialIcons.vue?vue&type=style&index=0&scoped=d7320a94&lang.ts\";\nimport { useSSRContext as __vite_useSSRContext } from \"vue\";\nconst _sfc_setup = _sfc_main.setup;\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext();\n  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add(\"node_modules/@nuxt-themes/alpine/components/SocialIcons.vue\");\n  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;\n};\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"__scopeId\", \"data-v-d7320a94\"]]);\n",
+      "start": 1721696491024,
+      "end": 1721696491101,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1721696491101,
+      "end": 1721696491101,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1721696491101,
+      "end": 1721696491101,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1721696491101,
+      "end": 1721696491102,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1721696491102,
+      "end": 1721696491102,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1721696491102,
+      "end": 1721696491102,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:prehydrate-transform",
+      "start": 1721696491102,
+      "end": 1721696491103,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:prehydrate-transform",
+      "start": 1721696491102,
+      "end": 1721696491103,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "result": "import { defineAsyncComponent } from \"vue\"\nexport default defineAsyncComponent(() => import(\"/home/msrody/Workspace/therodysite/node_modules/@nuxt-themes/alpine/components/SocialIcons.vue\").then(r => r[\"default\"] || r.default || r))",
+      "start": 1721696491103,
+      "end": 1721696491103,
+      "order": "normal",
+      "sourcemaps": null
+    },
+    {
+      "name": "replace",
+      "start": 1721696491104,
+      "end": 1721696491104,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1721696491104,
+      "end": 1721696491104,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1721696491104,
+      "end": 1721696491104,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1721696491105,
+      "end": 1721696491105,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1721696491105,
+      "end": 1721696491105,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1721696491105,
+      "end": 1721696491105,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1721696491105,
+      "end": 1721696491105,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1721696491105,
+      "end": 1721696491105,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1721696491105,
+      "end": 1721696491105,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1721696491105,
+      "end": 1721696491105,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1721696491105,
+      "end": 1721696491106,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1721696491105,
+      "end": 1721696491106,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1721696491106,
+      "end": 1721696491109,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1721696491106,
+      "end": 1721696491109,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1721696491109,
+      "end": 1721696491109,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1721696491109,
+      "end": 1721696491109,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1721696491109,
+      "end": 1721696491110,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1721696491109,
+      "end": 1721696491110,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1721696491110,
+      "end": 1721696491110,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1721696491111,
+      "end": 1721696491111,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1721696491111,
+      "end": 1721696491112,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1721696491112,
+      "end": 1721696491112,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1721696491112,
+      "end": 1721696491112,
+      "order": "normal"
+    }
+  ]
+}
