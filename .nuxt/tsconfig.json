@@ -108,7 +108,7 @@
         "./imports"
       ],
       "#app-manifest": [
-        "./manifest/meta/dev.json"
+        "./manifest/meta/dev"
       ],
       "#build": [
         "."
@@ -167,16 +167,15 @@
     "./nuxt.d.ts",
     "../.config/nuxt.*",
     "../**/*",
-    "../../../**/*",
     "../node_modules/@nuxt-themes/alpine/**/*",
     "../node_modules/@nuxt-themes/typography/**/*",
     "../node_modules/@nuxt-themes/elements/**/*",
     "../node_modules/@nuxtjs/plausible/runtime",
     "../node_modules/@nuxt/devtools/runtime",
+    "../node_modules/@nuxthq/studio/runtime",
     "../node_modules/@nuxtjs/color-mode/runtime",
     "../../../../msrod/runtime",
     "../node_modules/@nuxt-themes/tokens/runtime",
-    "../node_modules/@nuxthq/studio/runtime",
     "../node_modules/@nuxtjs/mdc/runtime",
     "../node_modules/@nuxt/content/runtime",
     "../node_modules/nuxt-icon/runtime",
@@ -187,17 +186,16 @@
   "exclude": [
     "../dist",
     "../node_modules",
-    "../../../node_modules",
     "../node_modules/nuxt/node_modules",
     "../node_modules/@nuxt-themes/alpine/node_modules",
     "../node_modules/@nuxt-themes/typography/node_modules",
     "../node_modules/@nuxt-themes/elements/node_modules",
     "../node_modules/@nuxtjs/plausible/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
+    "../node_modules/@nuxthq/studio/runtime/server",
     "../node_modules/@nuxtjs/color-mode/runtime/server",
     "../../../../msrod/runtime/server",
     "../node_modules/@nuxt-themes/tokens/runtime/server",
-    "../node_modules/@nuxthq/studio/runtime/server",
     "../node_modules/@nuxtjs/mdc/runtime/server",
     "../node_modules/@nuxt/content/runtime/server",
     "../node_modules/nuxt-icon/runtime/server",

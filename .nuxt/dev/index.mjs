@@ -97,11 +97,11 @@ const defineAppConfig = (config) => config;
 
 const appConfig0 = defineAppConfig({
   alpine: {
-    title: "Alpine",
-    description: "The minimalist blog theme",
+    title: "The Rodys",
+    description: "The Rodys is a site for the Rodys.",
     image: {
-      src: "/social-card-preview.png",
-      alt: "An image showcasing my project.",
+      src: "/M&CatKarim&AmandasWedding.jpg",
+      alt: "Chelly & Mike Rody - AGWM Missionaries to Indonesia.",
       width: 400,
       height: 300
     },
@@ -109,36 +109,40 @@ const appConfig0 = defineAppConfig({
       position: "right",
       // possible value are : | 'left' | 'center' | 'right'
       logo: {
-        path: "/logo.svg",
+        path: "/RodysLogoLightSimp.svg",
         // path of the logo
-        pathDark: "/logo-dark.svg",
+        pathDark: "/RodysLogoDarkSimp.svg",
         // path of the logo in dark mode, leave this empty if you want to use the same logo
-        alt: "alpine"
+        alt: "The Rodys"
         // alt of the logo
       }
     },
     footer: {
       credits: {
-        enabled: true,
         // possible value are : true | false
-        repository: "https://www.github.com/nuxt-themes/alpine"
+        enabled: true,
         // our github repository
+        repository: "https://www.github.com/nuxt-themes/alpine",
+        text: "The Rodys"
       },
       navigation: true,
       // possible value are : true | false
       alignment: "center",
       // possible value are : 'none' | 'left' | 'center' | 'right'
-      message: "Follow me on"
+      message: "Follow us on"
       // string that will be displayed in the footer (leave empty or delete to disable)
     },
     socials: {
-      twitter: "nuxtlabs",
-      instagram: "atinuxt",
+      twitter: "@Mike_Rody",
+      instagram: "michaelsrody",
       linkedin: {
         icon: "uil:linkedin",
         label: "LinkedIn",
-        href: "https://www.linkedin.com/company/nuxtlabs"
-      }
+        href: "https://www.linkedin.com/in/michael-rody/"
+      },
+      github: "msrody",
+      facebook: "mike.rody",
+      youtube: "@ieschurch"
     },
     form: {
       successMessage: "Message sent. Thank you!"
@@ -395,6 +399,20 @@ const _inlineRuntimeConfig = {
           "bash",
           "ini",
           "c",
+          "cpp",
+          "json",
+          "js",
+          "ts",
+          "html",
+          "css",
+          "vue",
+          "diff",
+          "shell",
+          "markdown",
+          "yaml",
+          "bash",
+          "ini",
+          "c",
           "cpp"
         ]
       },
@@ -485,6 +503,20 @@ const _inlineRuntimeConfig = {
         "md",
         "mdc",
         "yaml",
+        "json",
+        "js",
+        "ts",
+        "html",
+        "css",
+        "vue",
+        "diff",
+        "shell",
+        "markdown",
+        "yaml",
+        "bash",
+        "ini",
+        "c",
+        "cpp",
         "json",
         "js",
         "ts",

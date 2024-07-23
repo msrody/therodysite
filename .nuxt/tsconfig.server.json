@@ -104,12 +104,6 @@
       "#color-mode-options": [
         "./color-mode-options"
       ],
-      "#nuxt-component-meta": [
-        "./component-meta"
-      ],
-      "#nuxt-component-meta/types": [
-        "./component-meta.d"
-      ],
       "#mdc-configs": [
         "./mdc-configs"
       ],
@@ -136,11 +130,10 @@
     "./types/nitro-nuxt.d.ts",
     "../node_modules/@nuxtjs/plausible/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
+    "../node_modules/@nuxthq/studio/runtime/server",
     "../node_modules/@nuxtjs/color-mode/runtime/server",
     "../../../../msrod/runtime/server",
     "../node_modules/@nuxt-themes/tokens/runtime/server",
-    "../node_modules/nuxt-component-meta/runtime/server",
-    "../node_modules/@nuxthq/studio/runtime/server",
     "../node_modules/@nuxtjs/mdc/runtime/server",
     "../node_modules/@nuxt/content/runtime/server",
     "../node_modules/nuxt-icon/runtime/server",
@@ -152,7 +145,6 @@
   ],
   "exclude": [
     "../node_modules",
-    "../../../node_modules",
     "../node_modules/nuxt/node_modules",
     "../node_modules/@nuxt-themes/alpine/node_modules",
     "../node_modules/@nuxt-themes/typography/node_modules",
